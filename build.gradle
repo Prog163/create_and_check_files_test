@@ -6,17 +6,17 @@ repositories {
     mavenCentral()
 }
 
-def selenideVersion = "5.23.0",
-    junitVersion = "5.7.1"
+def selenideVersion = '6.12.3',
+    junitVersion = '5.9.2'
 
 dependencies {
     testImplementation (
             "com.codeborne:selenide:$selenideVersion",
             "org.apache.poi:poi:5.2.2",
-            "com.codeborne:pdf-test:1.6.1",
-            "com.codeborne:xls-test:1.4.3",
-            "com.opencsv:opencsv:5.3",
-            "org.assertj:assertj-core:3.19.0",
+            'com.codeborne:pdf-test:1.8.1',
+            'com.codeborne:xls-test:1.7.0',
+            'com.opencsv:opencsv:5.7.1',
+            'org.assertj:assertj-core:3.24.2',
             "org.junit.jupiter:junit-jupiter:$junitVersion",
             "org.junit.jupiter:junit-jupiter-params:$junitVersion")
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$junitVersion"
