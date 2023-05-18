@@ -16,7 +16,6 @@ public class DocFileTest {
         InputStream stream = classLoader.getResourceAsStream(fileName);
         XWPFDocument docx = new XWPFDocument(stream);
         String parsedDocx = docx.getDocument().toString();
-
         assertThat(parsedDocx).contains(fileText);
     }
 }
