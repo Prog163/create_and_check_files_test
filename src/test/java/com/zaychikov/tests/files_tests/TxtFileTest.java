@@ -1,4 +1,4 @@
-package com.zaychikov.tests;
+package com.zaychikov.tests.files_tests;
 
 import org.junit.jupiter.api.Test;
 import static com.zaychikov.tests.utils.Files.readTextFromPath;

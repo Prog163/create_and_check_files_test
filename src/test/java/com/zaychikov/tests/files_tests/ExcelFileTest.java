@@ -1,4 +1,4 @@
-package com.zaychikov.tests;
+package com.zaychikov.tests.files_tests;
 
 import com.codeborne.xlstest.XLS;
 import org.junit.jupiter.api.Test;
