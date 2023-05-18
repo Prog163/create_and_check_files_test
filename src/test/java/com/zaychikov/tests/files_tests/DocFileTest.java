@@ -8,7 +8,7 @@ import static com.codeborne.pdftest.assertj.Assertions.assertThat;
 public class DocFileTest {
 
     private String fileName = "word_doc.docx";
-    private String fileText = "This is my word doc!";
+    private String fileText = "Hello from DOC file";
 
     @Test
     void docxFileTest() throws Exception {
